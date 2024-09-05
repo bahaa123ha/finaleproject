@@ -112,7 +112,7 @@ function createUser(user){
     let img = document.createElement("img");
     let pName = document.createElement("p");
     let phoneNumber = document.createElement("p");
-    img.src = "../images/" + user.img;
+    img.src = "./images/" + user.img;
     img.style.borderRadius = "4rem";
     img.style.width = "5rem";
     pName.innerText = user.name;
